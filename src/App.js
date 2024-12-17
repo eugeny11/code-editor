@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
 
-    // Обновляем размер шрифта при изменении размеров экрана
+    // Renew the font size while the size of screen is changing
     const handleResize = () => {
       setFontSize(getFontSize());
   };
